@@ -4,6 +4,7 @@
 #asd - assign speed director, you can assign upto 4 (asd1(=asd),asd2,asd3,asd4)
 #sd - go to the speed diirectory (sd1(=sd),sd2,sd3,sd4)
 
+mkdir sd
 
 alias sd='cd $(head -n 1 ~/scripts/sd/sd1.txt)'
 alias sd1='cd $(head -n 1 ~/scripts/sd/sd1.txt)'
